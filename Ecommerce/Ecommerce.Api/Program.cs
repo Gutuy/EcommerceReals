@@ -1,3 +1,4 @@
+using Ecommerce.Api.MiddleWare;
 using Ecommerce.Domain.Interfaces;
 using Ecommerce.Infrastructure.Data;
 using Ecommerce.Infrastructure.Repository;
@@ -11,6 +12,7 @@ builder.Services.AddDbContext<StoreContext>(opt =>
 builder.Services.AddControllers();
 builder.Services.AddScoped<IProductInterfaces,ProductRepository>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddCors();
 // Add Swagger services
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -25,7 +27,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseMiddleware<ExceptionMiddleware>();
 
+app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200","https://localhost:4200"));
 app.MapControllers();
 
 try
