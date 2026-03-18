@@ -1,0 +1,12 @@
+C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\Ecommerce\Ecommerce.Domain\bin\Debug\net9.0\Ecommerce.Domain.deps.json
+C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\Ecommerce\Ecommerce.Domain\bin\Debug\net9.0\Ecommerce.Domain.dll
+C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\Ecommerce\Ecommerce.Domain\bin\Debug\net9.0\Ecommerce.Domain.pdb
+C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\Ecommerce\Ecommerce.Domain\obj\Debug\net9.0\Ecommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\Ecommerce\Ecommerce.Domain\obj\Debug\net9.0\Ecommerce.Domain.AssemblyInfoInputs.cache
+C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\Ecommerce\Ecommerce.Domain\obj\Debug\net9.0\Ecommerce.Domain.AssemblyInfo.cs
+C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\Ecommerce\Ecommerce.Domain\obj\Debug\net9.0\Ecommerce.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\Ecommerce\Ecommerce.Domain\obj\Debug\net9.0\Ecommerce.Domain.dll
+C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\Ecommerce\Ecommerce.Domain\obj\Debug\net9.0\refint\Ecommerce.Domain.dll
+C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\Ecommerce\Ecommerce.Domain\obj\Debug\net9.0\Ecommerce.Domain.pdb
+C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\Ecommerce\Ecommerce.Domain\obj\Debug\net9.0\ref\Ecommerce.Domain.dll
+C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\Ecommerce\Ecommerce.Domain\obj\Debug\net9.0\Ecommerce.Domain.sourcelink.json
