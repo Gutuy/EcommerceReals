@@ -271,3 +271,4 @@ C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\EcommerceAPI\Ecommerce
 C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\EcommerceAPI\Ecommerce.Api\obj\Debug\net9.0\Ecommerce.Api.pdb
 C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\EcommerceAPI\Ecommerce.Api\obj\Debug\net9.0\Ecommerce.Api.genruntimeconfig.cache
 C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\EcommerceAPI\Ecommerce.Api\obj\Debug\net9.0\ref\Ecommerce.Api.dll
+C:\Users\gutuc\OneDrive\Desktop\Project\EcommerceReal\Api\EcommerceAPI\Ecommerce.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
