@@ -1,13 +1,16 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { HeaderComponent } from "./Layout/header/header.component";
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [],
+  imports: [
+    HeaderComponent
+],
   templateUrl: './app.html',
-  styleUrls: []
+  styleUrls: ['./app.css']
 })
-export class App {
-  protected readonly title = 'Skinet';
+export class AppComponent {
+  title = 'Skinet';
 }
