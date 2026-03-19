@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { HeaderComponent } from "./Layout/header/header.component";
+import { HttpClient } from '@angular/common/http';
 
 
 @Component({
@@ -11,6 +12,20 @@ import { HeaderComponent } from "./Layout/header/header.component";
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
+ 
   title = 'Skinet';
+  private baseUrl='http://localhost:5268/api/'
+  private http=inject(HttpClient);
+  products:any[]=[];
+ ngOnInit(): void {
+    this.http.get<any>(this.baseUrl + 'product').subscribe(
+{
+  next:Response=>this.products=Response.data,
+  error:err=>console.log(err),
+  complete:()=>console.log("complete"),
+}
+    )
+  }
+
 }
