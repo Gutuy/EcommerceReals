@@ -10,6 +10,6 @@ export class ShopServiceService {
    private baseUrl='http://localhost:5268/api/'
     private http=inject(HttpClient);
     getproducts(){
-   return   this.http.get<pagination<product>>(this.baseUrl + 'product');
+   return   this.http.get<pagination<product>>(this.baseUrl + 'product?pageSize=20');
     }
 }

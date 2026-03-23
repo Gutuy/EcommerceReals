@@ -4,30 +4,21 @@ import { HttpClient } from '@angular/common/http';
 import { product } from './Shared/Models/product';
 import { pagination } from './Shared/Models/pagination';
 import { ShopServiceService } from './Core/shop-service.service';
+import { ShopComponent } from "./Feature/shop/shop.component";
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    HeaderComponent
+    HeaderComponent,
+    ShopComponent
 ],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
-export class AppComponent implements OnInit{
+export class AppComponent {
  
-  title = 'Skinet';
- private shopServices=inject(ShopServiceService)
-  products:product[]=[];
- ngOnInit(): void {
-   this.shopServices.getproducts() .subscribe(
-{
-  next:Response=>this.products=Response.data,
-  error:err=>console.log(err),
-
-}
-    )
-  }
+ title="skinet"
 
 }
